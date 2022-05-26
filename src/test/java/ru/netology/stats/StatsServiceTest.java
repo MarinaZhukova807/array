@@ -23,7 +23,7 @@ public class StatsServiceTest {
     }
 
     @Test
-    public void StatMaxMonthTest() {
+    public void StatMaxSalesMonthTest() {
         StatsService service = new StatsService();
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         long actual = service.maxSales(sales);
@@ -32,7 +32,7 @@ public class StatsServiceTest {
     }
 
     @Test
-    public void StatMinMonthTest() {
+    public void StatMinSalesMonthTest() {
         StatsService service = new StatsService();
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         long actual = service.minSales(sales);
